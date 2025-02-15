@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\manita_dotnet_assignment.props" />
+</Project>

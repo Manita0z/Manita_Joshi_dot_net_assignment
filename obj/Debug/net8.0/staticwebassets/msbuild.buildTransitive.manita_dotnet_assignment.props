@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\manita_dotnet_assignment.props" />
+</Project>
