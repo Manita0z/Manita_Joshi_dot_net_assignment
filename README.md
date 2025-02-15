@@ -1,6 +1,6 @@
 # Manita_Joshi_dot_net_assignment
 This is an order tracking app made in ,net programming language 
-# Order Tracking System
+
 
 
  # Note: this repository is recreated since in previous repo there were non-updated and mostly mistake  file and screenshots of the outputs
@@ -61,7 +61,7 @@ What features I have added?
 3. Run migrations: `dotnet ef database update`.
 4. Start the application using `dotnet run`.
 
-##Sample Images:
+# Sample Images:
 ![Screenshot 2025-02-15 081123](https://github.com/Manita0z/Manita_Joshi_dot_net_assignment/blob/main/screenshots%20of%20the%20%20output/Screenshot%202025-02-15%20081123.png)
 ![Screenshot 2025-02-15 081209](https://github.com/Manita0z/Manita_Joshi_dot_net_assignment/blob/main/screenshots%20of%20the%20%20output/Screenshot%202025-02-15%20081209.png)
 ![Screenshot 2025-02-15 081520](https://github.com/Manita0z/Manita_Joshi_dot_net_assignment/blob/main/screenshots%20of%20the%20%20output/Screenshot%202025-02-15%20081520.png)
