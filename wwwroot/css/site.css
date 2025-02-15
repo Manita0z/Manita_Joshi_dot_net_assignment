@@ -1,0 +1,179 @@
+/* Base font size and smooth transitions */
+html {
+    font-size: 12px; /* Smaller base font size */
+    transition: font-size 0.3s ease;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 14px; /* Slightly larger base font size for larger screens */
+    }
+}
+
+/* Body setup */
+html {
+    position: relative;
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4; /* Smaller line-height to reduce vertical space */
+}
+
+body {
+    background-color: #e3f2fd; /* Light blue background color */
+    color: #333; /* Darker text color for readability */
+    margin-bottom: 40px; /* Reduced bottom margin */
+    font-size: 0.9rem; /* Smaller base font size */
+    padding: 20px 10px; /* Reduced padding */
+    transition: background-color 0.3s ease;
+}
+
+/* Enhanced title styles */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem; /* Smaller title size */
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(45deg, #ff9800, #ff5722);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 25px rgba(255, 152, 0, 0.5);
+    animation: glow 1.5s infinite alternate;
+    margin-top: 10px;
+}
+
+/* Animation for glowing effect */
+@keyframes glow {
+    0% {
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 25px rgba(255, 152, 0, 0.5);
+    }
+
+    50% {
+        text-shadow: 3px 3px 10px rgba(255, 152, 0, 0.7), 0 0 30px rgba(255, 152, 0, 0.9);
+    }
+
+    100% {
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 25px rgba(255, 152, 0, 0.5);
+    }
+}
+
+/* Subtitle Styling */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem; /* Smaller subtitle size */
+    color: #ff5722;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Images Section */
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.col-md-4 {
+    padding: 10px;
+    text-align: center;
+}
+
+    .col-md-4 img {
+        max-width: 100%;
+        height: auto;
+    }
+
+p {
+    font-size: 0.9rem; /* Smaller font size for paragraphs */
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+/* Fun Facts */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+    ul li {
+        background-color: #ffffff;
+        padding: 6px 15px; /* Smaller padding for list items */
+        margin: 5px 0; /* Smaller margin between list items */
+        border-radius: 8px;
+        border: 1px solid #90caf9;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+        ul li:hover {
+            background-color: #f1f8e9;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+/* Buttons */
+.btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px; /* Smaller button size */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .btn:hover {
+        background-color: #fb8c00;
+        transform: translateY(-2px);
+    }
+
+    .btn:active {
+        background-color: #f57c00;
+        transform: translateY(0);
+    }
+
+/* Form elements with updated border color */
+.form-control {
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 0.9rem; /* Smaller font size for inputs */
+    border: 1px solid #90caf9;
+    transition: border-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+    .form-control:focus {
+        border-color: #ff9800;
+        box-shadow: 0 0 5px rgba(255, 152, 0, 0.6);
+    }
+
+/* Spacing adjustments */
+p, h2, ul {
+    margin-bottom: 10px; /* Reduced bottom margin */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Smaller title for mobile */
+    }
+
+    h2 {
+        font-size: 1rem; /* Smaller subtitle for mobile */
+    }
+
+    ul li {
+        font-size: 0.8rem; /* Smaller font size for list items on mobile */
+    }
+}
