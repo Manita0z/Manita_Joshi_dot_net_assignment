@@ -3,10 +3,10 @@ This is an order tracking app made in ,net programming language
 # Order Tracking System
 
 
- ##Note: this repository is recreated since in previous repo there were non-updated and mostly mistake  file and screenshots of the outputs
+ # Note: this repository is recreated since in previous repo there were non-updated and mostly mistake  file and screenshots of the outputs
 
 
-##What I  did?
+# What I  did?
 a) SSMS connection and server and Visual Studio-> view -> server explorer
 b)Server->property->copied the connection string -> Pasted in appsetting.json->eneterd database name
 c)created a model->Reviewers->included all necessary entities
