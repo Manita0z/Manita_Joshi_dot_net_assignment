@@ -75,6 +75,6 @@ What features I have added?
 # After deleting data becomes
 ![Screenshot 2025-02-16 124316.png](https://github.com/Manita0z/Manita_Joshi_dot_net_assignment/blob/main/screenshots%20of%20the%20%20output/Screenshot%202025-02-16%20124316.png)
 # table after editing
-![Screenshot 2025-02-16 124316](https://github.com/Manita0z/Manita_Joshi_dot_net_assignment/blob/main/screenshots%20of%20the%20%20output/Screenshot%202025-02-16%20124316.png)
+![Screenshot 2025-02-16 124406](https://github.com/Manita0z/Manita_Joshi_dot_net_assignment/blob/main/screenshots%20of%20the%20%20output/Screenshot%202025-02-16%20124406.png)
 ## Conclusion
 This project streamlines order management and improves tracking accuracy, making it an essential tool for businesses managing multiple orders.
